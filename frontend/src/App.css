@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+
+.kanban-column {
+  background-color: #f4f4f4;
+  padding: 10px;
+  border-radius: 5px;
+  min-height: 300px;
+}
+
+.candidate-card {
+  background-color: #fff;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+  .kanban-column {
+      width: 100%;
+      margin-bottom: 20px;
+  }
+}
